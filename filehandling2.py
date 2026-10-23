@@ -1,3 +1,5 @@
+# this is to demonstrate how to push changes in a file 
+
 #Lower case Func
 def process_lower(ganesh):
     print("I am in process of lower block.")
@@ -10,3 +12,4 @@ with open(file_name,"r") as file:
     content =file.read()
 result =process_lower(content)
 print(result)
+
